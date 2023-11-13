@@ -26,6 +26,21 @@
         .carousel-indicators {
             bottom: -40px;
         }
+
+        @media (max-width: 575px) {
+            #techInfo {
+                margin-bottom: 40px;
+            }
+
+            .card-post {
+                margin-bottom: 15px;
+
+            }
+
+            aside {
+                margin-bottom: 15px;
+            }
+        }
     </style>
 
 
@@ -59,7 +74,7 @@
             <div class="col-sm-5">
 
                 <!-- Carousel Info -->
-                <div id="octoInfo" class="carousel slide">
+                <div id="techInfo" class="carousel slide">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#octoInfo" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
@@ -69,7 +84,8 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <h2>Oyun Konsollarının Gelişim Süreci</h2>
-                            <p>Geçmişte ekranlarımızda yer alan bir kaç pixel'in hareketine dayanan konsollar günümüzdeki hallerine
+                            <p>Geçmişte ekranlarımızda yer alan bir kaç pixel'in hareketine dayanan konsollar
+                                günümüzdeki hallerine
                                 nasıl geldi ?</p>
 
                         </div>
@@ -146,8 +162,9 @@
 
         <!-- CARDS -->
         <div id="product" class="row">
+
             <div class="col-sm-6">
-                <div class="card d-flex shadow border rounded mb-3">
+                <div class="card card-post d-flex shadow border rounded mb-3">
                     <div class=" row g-0">
                         <div class="align-self-center col-md-4">
                             <img src="https://picsum.photos/id/442/400/550" class="img-fluid rounded-start" alt="...">
@@ -166,9 +183,10 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-sm-3">
-                <div class="card">
-                    <img src="https://picsum.photos/id/345/400/240" width="400" height="" class="card-img-top"
+                <div class="card card-post">
+                    <img src="https://picsum.photos/id/345/400/240" width="400" height="182" class="card-img-top"
                         alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Abonelik Modelleri</h5>
@@ -176,10 +194,11 @@
                     </div>
                 </div>
             </div>
+
             <div class="col-sm-3">
                 <div class="card">
                     <img src="img/stars.jpg" width="400" height="182" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body card-post">
                         <h5 class="card-title">Gelecekte Bizi Neler Bekliyor</h5>
                         <a href="#" class="btn w-100-block btn-outline-primary">İncele</a>
                     </div>
@@ -187,6 +206,7 @@
             </div>
         </div>
         <!-- CARDS END -->
+
 
         <!-- Aside ve Content -->
         <div class="row my-5">
@@ -278,7 +298,8 @@
 
 
                 <article id="first-gen" class="card p-3 mb-3 shadow-sm">
-                    <img src="https://picsum.photos/id/28/580/240" width="200" height="240" class="img-thumbnail w-100 mb-3" alt="">
+                    <img src="https://picsum.photos/id/28/580/240" width="200" height="240"
+                        class="img-thumbnail w-100 mb-3" alt="">
                     <h2>First Gen</h2>
                     <p>Atari ve Sears tarafından ortaklaşa satışa çıkarılan "Pong"; ilk örneklerden biriydi.</p>
 
