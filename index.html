@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- data-bs-theme="dark" -->
+<!-- :)))) -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Teknoloji Sitesi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <style>
+        aside>.list-group {
+            position: sticky;
+            top: 70px;
+        }
+
+        body {
+            margin-bottom: -50px;
+        }
+
+        .carousel-indicators {
+            bottom: -40px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    <a class="nav-link" href="#footer">Hakkımızda</a>
+                    <a class="nav-link" href="#first-gen">İçerikler</a>
+                    <a class="nav-link" href="#footer">İletişim</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAV END -->
+
+    <div id="info" class="container-fluid">
+
+        <div class="row bg-dark text-light p-5 align-items-center ">
+            <div class="col-sm-5">
+
+                <!-- Carousel Info -->
+                <div id="octoInfo" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#octoInfo" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#octoInfo" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h2>Oyun Konsollarının Gelişim Süreci</h2>
+                            <p>Geçmişte ekranlarımızda yer alan bir kaç pixel'in hareketine dayanan konsollar günümüzdeki hallerine
+                                nasıl geldi ?</p>
+
+                        </div>
+                        <div class="carousel-item">
+                            <h2>Her şey bir kaç pixel ile başladı</h2>
+                            <p>Video oyun konsollarının tarihsel gelişimine göz atıyoruz</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- Carousel Info End -->
+
+            </div>
+            <div class="col-sm-7">
+
+                <!-- Carousel Img -->
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/96/1200/350" class="d-block w-100 rounded" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img width="1200" height="264.083" src="/img/retro.jpg" class="d-block w-100 rounded"
+                                alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/250/1200/350" class="d-block w-100 rounded" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/249/1200/350" class="d-block w-100 rounded" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Carousel Img End -->
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Container -->
+    <div id="hero" class="container">
+
+        <!-- HERO INFO -->
+        <div class="row justify-content-center text-center rounded my-5 p-5 border shadow">
+            <div class="col-sm-8">
+                <h1 class="display-5">Sizler İçin Özenle Hazırlanan İçerikler </h1>
+                <p class="display-lead mt-3">Haberdar olmak için bültenimize <mark><strong> abone olun</strong></mark>
+                </p>
+            </div>
+        </div>
+        <!-- HERO INFO END -->
+
+        <!-- CARDS -->
+        <div id="product" class="row">
+            <div class="col-sm-6">
+                <div class="card d-flex shadow border rounded mb-3">
+                    <div class=" row g-0">
+                        <div class="align-self-center col-md-4">
+                            <img src="https://picsum.photos/id/442/400/550" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body ">
+                                <h5 class="mb-4 card-title">İnceleme</h5>
+                                <p class="mb-3 card-text">Her yönüyle Windows 11 den bahsediyoruz.
+                                </p>
+                                <p class="my-5 card-text">Sıkça gelen sorular ve merak edilenlerin tamamı burada.</p>
+                                <div class="d-grid">
+                                    <a href="#" class="align-self-end mt-auto btn btn-outline-primary">İncele</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="https://picsum.photos/id/345/400/240" width="400" height="" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Abonelik Modelleri</h5>
+                        <a href="#" class="btn w-100-block btn-outline-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="img/stars.jpg" width="400" height="182" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gelecekte Bizi Neler Bekliyor</h5>
+                        <a href="#" class="btn w-100-block btn-outline-primary">İncele</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CARDS END -->
+
+        <!-- Aside ve Content -->
+        <div class="row my-5">
+            <aside class="col-sm-3">
+                <!-- Aside Info -->
+                <div class="list-group">
+                    <a href="#first-gen" class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                        aria-current="true">
+
+                        <div class="d-flex gap-2 w-100 justify-content-starts">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                class="bi bi-joystick" viewBox="0 0 16 16">
+                                <path
+                                    d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
+                                <path
+                                    d="M0 9.665v1.717a1 1 0 0 0 .553.894l6.553 3.277a2 2 0 0 0 1.788 0l6.553-3.277a1 1 0 0 0 .553-.894V9.665c0-.1-.06-.19-.152-.23L9.5 6.715v.993l5.227 2.178a.125.125 0 0 1 .001.23l-5.94 2.546a2 2 0 0 1-1.576 0l-5.94-2.546a.125.125 0 0 1 .001-.23L6.5 7.708l-.013-.988L.152 9.435a.25.25 0 0 0-.152.23z" />
+                            </svg>
+                            <div class="ms-2">
+                                <h6 class="mb-0">Başlangıç!</h6>
+                                <p class="mb-0 opacity-75">İlk Adımlar</p>
+                            </div>
+                            <!-- <small class="opacity-50 text-nowrap">now</small> -->
+                        </div>
+                    </a>
+                    <a href="#atari" class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                        aria-current="true">
+                        <?xml version="1.0" ?><svg width="32" height="32" enable-background="new 0 0 24 24" id="Layer_1"
+                            version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g>
+                                <path
+                                    d="M10,1.5C10,1.2236328,9.7763672,1,9.5,1h-1C8.3642578,1,8.2353516,1.0546875,8.140625,1.1523438   C8.046875,1.2490234,7.9960938,1.3798828,8,1.515625c0.0029297,0.0976563,0.2607422,9.8251953-3.6103516,13.8193359   C3.3193359,16.4394531,2.0107422,17,0.5,17C0.2236328,17,0,17.2236328,0,17.5v4c0,0.265625,0.2070313,0.484375,0.4726563,0.4990234   C0.4853516,22,0.5292969,22.0019531,0.6015625,22.0019531c0.5849609,0,2.9960938-0.1376953,5.25-2.2705078   C8.6044922,17.1279297,10,12.6757813,10,6.5V1.5z"
+                                    fill="#303C42" />
+                                <path
+                                    d="M23.5,17c-1.5097656,0-2.8183594-0.5595703-3.8896484-1.6640625   C15.7421875,11.3457031,15.9970703,1.6132813,16,1.515625c0.0039063-0.1357422-0.046875-0.2666016-0.140625-0.3632813   C15.7646484,1.0546875,15.6357422,1,15.5,1h-1C14.2236328,1,14,1.2236328,14,1.5v5   c0,6.1757813,1.3955078,10.6279297,4.1484375,13.2314453c2.2539063,2.1328125,4.6650391,2.2705078,5.25,2.2705078   c0.0722656,0,0.1162109-0.0019531,0.1289063-0.0029297C23.7929688,21.984375,24,21.765625,24,21.5v-4   C24,17.2236328,23.7763672,17,23.5,17z"
+                                    fill="#303C42" />
+                                <path
+                                    d="M13,1.5146484c0.0039063-0.1347656-0.046875-0.265625-0.1416016-0.3632813   C12.7646484,1.0546875,12.6347656,1,12.5,1h-1c-0.1347656,0-0.2646484,0.0546875-0.3583984,0.1513672   C11.046875,1.2490234,10.9960938,1.3798828,11,1.5146484c0.0048828,0.1679688,0.4550781,16.8486328-2.8759766,20.65625   c-0.1298828,0.1474609-0.1601563,0.3574219-0.0791016,0.5361328S8.3037109,23,8.5,23h7   c0.1962891,0,0.3740234-0.1142578,0.4550781-0.2929688s0.0507813-0.3886719-0.0791016-0.5361328   C12.5449219,18.3632813,12.9951172,1.6826172,13,1.5146484z"
+                                    fill="#303C42" />
+                            </g>
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                            <g />
+                        </svg>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Yeni Jenerasyon</h6>
+                                <p class="mb-0 opacity-75">"kasetli atari" de neymiş ki ?</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#nintendo" class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                        aria-current="true">
+                        <?xml version="1.0" ?><svg fill="none" height="32" viewBox="0 0 15 15" width="32"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.5 7V10M2 8.5H5M11 9.5H12M9 9.5H10M1.5 3.5H13.5C14.0523 3.5 14.5 3.94772 14.5 4.5V10.5C14.5 11.0523 14.0523 11.5 13.5 11.5H1.5C0.947716 11.5 0.5 11.0523 0.5 10.5V4.5C0.5 3.94772 0.947715 3.5 1.5 3.5Z"
+                                stroke="black" /></svg>
+                        <div class="d-flex gap-2 w-100 justify-content-between">
+                            <div>
+                                <h6 class="mb-0">Nintendonun yükselişi</h6>
+                                <p class="mb-0 opacity-75">Kartlar yeniden dağıtılıyor :)</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+
+
+                <!-- Aside Info End-->
+            </aside>
+            <section id="article" class="col-sm-9">
+                <!-- Section Info -->
+
+
+                <article id="first-gen" class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/28/580/240" width="200" height="240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>First Gen</h2>
+                    <p>Atari ve Sears tarafından ortaklaşa satışa çıkarılan "Pong"; ilk örneklerden biriydi.</p>
+
+                </article>
+
+
+                <article class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/11/580/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <div class="my-2">
+                        <h2 class="mb-2">2nd</h2>
+                        <p>Bizi oyun kartuşlarıyla tanıştıran jenerasyon, Space Invaders gibi arcade makineleri için
+                            çıkmış
+                            bir çok oyunun konsol uyarlamalarını erişebilme imkanı sunmuştu.</p>
+                    </div>
+
+                    <!-- Accordion -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Önemli İkinci Jenerasyon Konsollar
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Fairchild Channel F</li>
+                                        <li>Atari 2600</li>
+                                        <li>Intellivision
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion End -->
+
+                </article>
+
+
+
+                <article id="atari" class="card p-3 mb-3 shadow-sm">
+                    <div class="d-flex bg-dark rounded border  justify-content-center">
+                        <iframe class="" width="560" height="315"
+                            src="https://www.youtube.com/embed/wSLrhubWefM?si=vZEHSSmb3I-PHdFF"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h2>ATARI 2600</h2>
+                    <p>Günümüzde tıpkı selpak gibi; bir çok konsola "Atari" denmesinin asıl sebebi olan reklam filmi</p>
+                </article>
+
+                <article id="nintendo" class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/14/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>NES</h2>
+                    <p>1983 yılında NES (Nintendo Entertainment System) ya da FAMICOM (Family Computer) adıyla bilinen
+                        konsol Japonyada çıkış yaptı. Konsol nintendo'nun uyguladığı stratejiler ile bu dönemde sektörde
+                        yaşanan düşüş ve durgunluğun ortadan kalkmasına katkıda bulundu.</p>
+                </article>
+
+                <article class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/14/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Sega Master System</h2>
+                    <p>Sonic, OutRun, Prince of Persia gibi oyunlar ile Sega Master System bu jenerasyonun önemli bir
+                        temsilcisi ve aynı zamanda Nintendo nun rakibiydi.</p>
+                </article>
+
+                <article class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/14/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <h2>Dünden Bugüne</h2>
+                    <p>The Legend of Zelda, Super Mario Bros, Sonic, OutRun gibi bir çok markayla bu dönemde tanışmış
+                        olduk.</p>
+                </article>
+
+
+                <article class="card p-3 mb-3 shadow-sm">
+                    <img src="https://picsum.photos/id/11/600/240" class="img-thumbnail w-100 mb-3" alt="">
+                    <div class="my-2">
+                        <h2 class="mb-2">Kritikler</h2>
+                        <p>Önemli yapımlar ile kez bu dönemde ve şüphesiz günümüzde olduğundan epey farklı bir şekilde
+                            karşılaşıyoruz.</p>
+                    </div>
+
+                    <!-- Accordion -->
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Önemli Üçüncü Jenerasyon Konsollar
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Sega Mega Drive</li>
+                                        <li>Nintendo Entertainment System</li>
+                                        <li>Atari 7800
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Accordion End -->
+
+                </article>
+
+                <!-- Section Info End-->
+            </section>
+        </div>
+        <!-- Aside ve Content End -->
+
+
+    </div>
+    <!-- Container End -->
+
+
+    <!-- Container -->
+    <div class="container-fluid my-5" id="images">
+        <div class="row">
+
+            <!-- Pictures -->
+            <div class="col"><img src="https://picsum.photos/id/33/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/58/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/93/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/24/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/34/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/122/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/229/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/368/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/291/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/213/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/115/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/212/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/213/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/214/300/240" alt="" class="img-thumbnail w-100"></div>
+            <div class="col"><img src="https://picsum.photos/id/321/300/240" alt="" class="img-thumbnail w-100"></div>
+            <!-- Pictures End -->
+        </div>
+    </div>
+    <!-- Container End -->
+
+
+
+    <!-- Footer -->
+    <footer class="border-top">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 my-5 justify-content-end">
+            <div class="col-sm-6 mb-3">
+                <h5>Kategoriler</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Donanım</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yazılım</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">İşletim
+                            Sistemleri</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Oyun</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Güvenlik</a></li>
+                </ul>
+            </div>
+            <div class="col mb-3">
+                <h5>İçerik</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anasayfa</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Forum</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımızda</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">İletişim</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div id="footer" class="row">
+            <div class="col-sm-6">
+                <p class="text-start text-body-secondary">© 2023 Tech</p>
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end">
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="#">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
